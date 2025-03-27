@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 for data in dataset:
-    # Create an instance of SentimentIntensityAnalyzer
     analyzer = SentimentIntensityAnalyzer()
 
     # Function to get sentiment scores
